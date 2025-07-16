@@ -4,19 +4,11 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-# Capture keyboard & mouse on Win/Mac/Linux
 rdev = "0.5"
-
-# Async TCP & UDP
 tokio = { version = "1", features = ["full"] }
-
-# Serialization (for the tiny protocol we’ll invent)
 serde = { version = "1", features = ["derive"] }
 bincode = "1"
-
-# Zero-config discovery (Bonjour/Avahi)
 mdns-sd = "0.5"
 local-ip-address = "0.6"
-# Logging
 tracing = "0.1"
 tracing-subscriber = "0.3"
