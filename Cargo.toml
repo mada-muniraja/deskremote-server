@@ -16,7 +16,7 @@ bincode = "1"
 
 # Zero-config discovery (Bonjour/Avahi)
 mdns-sd = "0.5"
-
+local-ip-address = "0.6"
 # Logging
 tracing = "0.1"
 tracing-subscriber = "0.3"
